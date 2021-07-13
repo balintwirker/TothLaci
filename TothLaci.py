@@ -1,21 +1,20 @@
-# import os
+import os
 
-# import discord
+import discord
+import time
+from datetime import datetime
 
-# TOKEN = os.getenv('DISCORD_TOKEN')
 
-# client = discord.Client()
+TOKEN = os.getenv('DISCORD_TOKEN')
+
+client = discord.Client()
 
 # @client.event
 # async def on_member_join():
 #     print(f'{client.user} has connected to Discord!')
 
 # client.run(TOKEN)
-import discord
-import time
-from datetime import datetime
 
-TOKEN="ODYzMDk5MzM4OTAwNjM1Njg4.YOh95g.PMTvZv_qxjfGPAJQyCVpZ6IgYQI"
 
 client = discord.Client()
 
